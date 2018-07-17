@@ -75,7 +75,7 @@ else
     error('Constellation is unavailable')
 end
 
-
+%{
 %------------------------------------------------------------------------------
 %Ensure E[|S|^2] = 1 
 fprintf('signal_Var = %g\n\n', norm(S)^2/M);
@@ -94,7 +94,7 @@ axis([-1.5 1.5 -1.5 1.5]) %[xmin xmax ymin y max] = Set x and y axis limits
 title('Signal constellation'),
 xlabel('In-Phase'),ylabel('Qudrature')  
 %------------------------------------------------------------------------------
-
+%}
 
 %{
 Constellation map
